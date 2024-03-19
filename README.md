@@ -1,10 +1,10 @@
-## Final Capstone Project: Merchant Clustering and Analysis
+# Final Capstone Project: Merchant Clustering and Analysis
 
-# Introduction
+## Introduction
 
 This project aims to analyze merchant data and cluster them based on their annual revenue and spending score. The dataset contains information about various merchants, including their annual revenue, spending score, city, most purchased product, and repayment score.
 
-# How to Run the Code
+## How to Run the Code
 
 To run the code, follow these steps:
 
@@ -17,7 +17,7 @@ Open the Python script named "Final Capstone Project" in your preferred Python e
 Execute the script cell by cell or all at once to perform data preprocessing, clustering, visualization, analysis, and model training.
 
 
-# Analysis and Discoveries
+## Analysis and Discoveries
 
 The dataset was preprocessed by renaming columns and handling missing values.
 
