@@ -16,8 +16,7 @@ Merchant Clustering: KMeans clustering is performed to segment merchants into di
 
 Credit Scoring Algorithm: A credit scoring algorithm is developed using merchant payment history and city information. This algorithm helps identify the creditworthiness of merchants, distinguishing between high-risk and low-risk merchants.
 
-## Recommendations: 
-Based on the analysis and credit scoring results, recommendations are provided to Cow and Buffalo Milk Company on which merchants to target for advertising and sales efforts.
+Recommendations: Based on the analysis and credit scoring results, recommendations are provided to Cow and Buffalo Milk Company on which merchants to target for advertising and sales efforts.
 
 ## How to Run the Code
 
