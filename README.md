@@ -20,13 +20,21 @@ Recommendations: Based on the analysis and credit scoring results, recommendatio
 
 ## How to Run the Code
 
-Requirements: Ensure that you have the necessary libraries installed, including numpy, pandas, matplotlib, scikit-learn, and seaborn.
+The project consists of three Jupyter Notebook files:
 
-Data: Download the dataset (data.xlsx) and place it in the same directory as the Python scripts.
+Final_Capstone_Project.ipynb: Performs clustering analysis, credit scoring algorithm, and nature parameter creation.
 
-Run the Notebooks: Open the provided Jupyter notebooks (Final_Capstone_Project.ipynb, Credit_Worthiness.ipynb, Credit_Scording_Algorithm.ipynb) in your preferred Python environment.
+Credit_Worthiness.ipynb: Focuses on developing the credit scoring algorithm.
 
-Execute Code: Execute the code cells in each notebook to perform data preprocessing, clustering, credit scoring, analysis, and model training.
+Credit_Scoring_Algorithm.ipynb: Explores and analyzes payment history data to develop the credit scoring algorithm.
+
+To run the code:
+
+Ensure Python and Jupyter Notebook are installed on your system.
+
+Download the dataset (data.xlsx) and the Jupyter Notebook files.
+
+Open each Jupyter Notebook file and execute the cells sequentially.
 
 Review Results: Examine the analysis results, including merchant clusters, creditworthiness scores, and recommendations.
 
