@@ -1,37 +1,50 @@
-# Final Capstone Project: Merchant Clustering and Analysis
+# Cow and Buffalo Milk Company: Merchant Analysis and Credit Scoring
 
 ## Introduction
 
-This project aims to analyze merchant data and cluster them based on their annual revenue and spending score. The dataset contains information about various merchants, including their annual revenue, spending score, city, most purchased product, and repayment score.
+The objective of this project is to assist Cow and Buffalo Milk Company in targeting the right customers, increasing sales, and improving efficiency in allocating advertising spend. 
+The project involves developing models to analyze merchant data, create a credit scoring algorithm, identify creditworthy merchants, and provide recommendations for targeting.
+
+## Dataset
+The dataset contains information about various merchants, including their annual revenue, spending score, payment history, city, and most purchased product.
+
+## Approach
+
+Data Preprocessing: The dataset is preprocessed to handle missing values, rename columns, and extract relevant features for analysis.
+
+Merchant Clustering: KMeans clustering is performed to segment merchants into distinct groups based on their annual revenue and spending score. The clusters are labeled as Careful, Spendthrift, General, Target, and Miser based on their nature.
+
+Credit Scoring Algorithm: A credit scoring algorithm is developed using merchant payment history and city information. This algorithm helps identify the creditworthiness of merchants, distinguishing between high-risk and low-risk merchants.
+
+## Recommendations: 
+Based on the analysis and credit scoring results, recommendations are provided to Cow and Buffalo Milk Company on which merchants to target for advertising and sales efforts.
 
 ## How to Run the Code
 
-To run the code, follow these steps:
+Requirements: Ensure that you have the necessary libraries installed, including numpy, pandas, matplotlib, scikit-learn, and seaborn.
 
-Ensure that you have the necessary libraries installed, including numpy, pandas, matplotlib, and sklearn.
+Data: Download the dataset (data.xlsx) and place it in the same directory as the Python scripts.
 
-Download the dataset (original data.xlsx) and place it in the same directory as the Python script.
+Run the Notebooks: Open the provided Jupyter notebooks (Final_Capstone_Project.ipynb, Credit_Worthiness.ipynb, Credit_Scording_Algorithm.ipynb) in your preferred Python environment.
 
-Open the Python script named "Final Capstone Project" in your preferred Python environment (e.g., Jupyter Notebook, Google Colab).
+Execute Code: Execute the code cells in each notebook to perform data preprocessing, clustering, credit scoring, analysis, and model training.
 
-Execute the script cell by cell or all at once to perform data preprocessing, clustering, visualization, analysis, and model training.
-
-
-## Analysis and Discoveries
-
-The dataset was preprocessed by renaming columns and handling missing values.
-
-KMeans clustering was performed to group merchants into five distinct clusters based on their annual revenue and spending score.
-
-The Elbow Method was used to determine the optimal number of clusters.
-
-Visualizations such as scatter plots and pie charts were created to analyze the distribution of spending scores by city and most purchased product.
-
-Cross-tabulations and bar plots were generated to examine the relationship between city, most purchased product, and cluster nature.
-
-A pivot table was created to compare the average annual revenue across different cities and cluster natures.
-
-Finally, a Random Forest Classifier was trained to predict repayment scores based on merchant features, achieving a certain level of accuracy.
+Review Results: Examine the analysis results, including merchant clusters, creditworthiness scores, and recommendations.
 
 
-Overall, the analysis provides insights into the segmentation of merchants and their spending behavior, which can be valuable for targeted marketing strategies and business decision-making.
+## Recommendations
+
+Targeting Strategy: Focus advertising and sales efforts on merchants classified as "Target" and "General" clusters, as they are likely to have higher spending scores and contribute significantly to sales.
+
+Creditworthiness: Prioritize credit approval for merchants with high credit scores and a history of timely payments. Implement stricter credit terms for merchants with low credit scores or a history of payment defaults.
+
+Efficiency: Allocate advertising spend efficiently by targeting merchants with the highest potential for sales and creditworthiness, optimizing return on investment.
+
+
+## Final Analysis Data
+
+Download the final analyzed data into a CSV file (analyzed.csv) containing merchant information, including cluster membership and nature classification.
+
+## Conclusion
+
+This project provides valuable insights and tools for Cow and Buffalo Milk Company to improve targeting strategies, increase sales, and enhance efficiency in advertising spend allocation. By leveraging data analysis and credit scoring algorithms, the company can optimize resource allocation and achieve its business objectives effectively.
